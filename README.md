@@ -1,50 +1,50 @@
-#  SRI - Sistema de Reconhecimento de Imagem
+#  SRI - Image Recognition System
 
-> Uma ferramenta de Inteligência Artificial capaz de classificar objetos em imagens com alta precisão utilizando Deep Learning (EfficientNet V2).
+> A Deep Learning-powered tool capable of classifying objects in images with high precision using the EfficientNet V2 architecture.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![Model](https://img.shields.io/badge/Model-EfficientNet%20V2%20(Large)-success)
 
-##  Sobre o Projeto
+##  Project Overview
 
-O **SRI (Sistema de Reconhecimento de Imagem)** é uma aplicação desenvolvida em Python que utiliza redes neurais convolucionais (CNNs) de última geração para analisar e identificar o conteúdo de imagens provenientes da internet.
+The **SRI (Sistema de Reconhecimento de Imagem)** is a Python application that leverages state-of-the-art Convolutional Neural Networks (CNNs) to analyze and identify the content of images directly from the web.
 
-O núcleo do projeto baseia-se no modelo **EfficientNet V2 Large**, uma arquitetura conhecida pela sua eficiência e elevada taxa de acerto no dataset ImageNet. O sistema foi desenhado para ser interativo, robusto a falhas e educativo, demonstrando como integrar modelos de visão computacional pré-treinados em aplicações reais.
+The core of the project is built upon the **EfficientNet V2 Large** model, an architecture renowned for its efficiency and top-tier accuracy on the ImageNet dataset. This system was designed to be interactive, robust, and educational, demonstrating how to integrate pre-trained computer vision models into real-world applications.
 
-### Funcionalidades Principais
-* **Análise via URL:** Processa imagens diretamente da web sem necessidade de download manual.
-* **Deep Learning de Ponta:** Utiliza o modelo `EfficientNet_V2_L`, superior a modelos clássicos como o ResNet50.
-* **Feedback Detalhado:** Apresenta a classificação principal e o grau de certeza (confiança) da IA.
-* **Tratamento de Erros:** Sistema robusto (`try/except`) que previne falhas com links quebrados ou ficheiros inválidos.
-* **Interface Interativa:** CLI (Linha de Comandos) com loops de repetição e menus intuitivos.
+### Key Features
+* **URL Analysis:** Processes images directly from a web URL without requiring manual downloads.
+* **Cutting-edge Deep Learning:** Utilizes the `EfficientNet_V2_L` model, outperforming classic architectures like ResNet50.
+* **Detailed Feedback:** Provides the primary classification along with the AI's confidence score.
+* **Robust Error Handling:** Implements a `try/except` system to prevent crashes when dealing with broken links or invalid file types.
+* **Interactive CLI:** A user-friendly command-line interface with loop-based navigation.
 
-##  Tecnologias Utilizadas
+##  Tech Stack
 
-* **Linguagem:** Python 3.12
-* **Motor de IA:** [PyTorch](https://pytorch.org/) & Torchvision
-* **Processamento de Imagem:** PIL (Pillow)
-* **Requisições Web:** Requests
+* **Language:** Python 3.12
+* **AI Framework:** [PyTorch](https://pytorch.org/) & Torchvision
+* **Image Processing:** PIL (Pillow)
+* **Web Requests:** Requests
 
-##  Como Executar
+##  Getting Started
 
-### Pré-requisitos
-Certifica-te de que tens o **Python 3.12** instalado no teu computador.
+### Prerequisites
+Ensure you have **Python 3.12** installed on your machine.
 
-### Instalação
+### Installation
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/TEU-USUARIO/SRI-Image-Recognizer.git](https://github.com/TEU-USUARIO/SRI-Image-Recognizer.git)
+    git clone [https://github.com/YOUR-USERNAME/SRI-Image-Recognizer.git](https://github.com/YOUR-USERNAME/SRI-Image-Recognizer.git)
     ```
 
-2.  **Instale as dependências:**
+2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-### Utilização
+### Usage
 
-Execute o ficheiro principal através do terminal:
+Run the main script via terminal:
 ```bash
 python main.py
